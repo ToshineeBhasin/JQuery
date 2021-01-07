@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide sentence using button</title>
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#test").hide();
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>This is me Toshi!!!</p>
+    <p id="test">This is next paragraph.</p>
+
+    <button>Click me</button>
+</body>
+</html>

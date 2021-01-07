@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hide and show in jquery</title>
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("p").hide();
+            });
+            $("#show").click(function(){
+                $("p").show();
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>If you click on hide button ,It will disappear.
+        If you click on show button, I will appear. 
+    </p>
+    <button id="hide">Hide</button>
+    <button id="show">show</button>
+</body>
+</html>
